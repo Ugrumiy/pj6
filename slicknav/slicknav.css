@@ -46,7 +46,7 @@
     width: 94%
 }
 .slicknav_btn:after {
-            content: "☰";
+            content: url('../images/menu-open.png');
             position: absolute;
             top: 23%;
             right: 1%;
