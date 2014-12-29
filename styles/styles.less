@@ -41,6 +41,13 @@ h1,h2,h3,h4,h5,h6,p,ul,li{
 header {
 	.account-search-wrapper{
 		background: @color-black;
+		@media screen and (max-width: 590px){
+					padding: 0 15px;
+		}
+		@media screen and (max-width: 520px){
+					padding: 0;
+		}
+
 
 		.account-search	{
 			height: 30px;
@@ -171,6 +178,13 @@ header {
 	.logo-nav-wrapper {
 		height: 106px;
 		margin-bottom: 1px;
+		@media screen and (max-width: 590px){
+					padding: 0 15px;
+		}
+		@media screen and (max-width: 520px){
+					padding: 0;
+		}
+
 
 		.left-col {
 			line-height: 106px;
@@ -187,6 +201,11 @@ header {
 			.logo{
 				position: relative;
 				top: 10px;	
+				width: 100%;
+				@media screen and (max-width: 520px){
+					vertical-align: middle;
+					width: 70%;
+				} 
 			}
 		}
 
@@ -211,7 +230,7 @@ header {
 							background: url('../images/ardown2.png') no-repeat 97% 52px;
 							.sub-menu{
 								display: block;
-							};
+							}
 							span{
 								color: @color-peach;
 							}
@@ -828,7 +847,7 @@ main .product-item {
 		content: '';
 		height: 50px;
 		width: 50px;
-		background: red url('../images/spritesheet1.png') no-repeat -18px -1709px;;
+		background: url('../images/spritesheet1.png') no-repeat -18px -1709px;
 		position: absolute;
 		top:0;
 		left: 0;
