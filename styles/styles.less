@@ -301,20 +301,26 @@ header {
 			}
 		}
 	}
-
-	.menu-mobile-wrapper{
-		display: none;
-		margin-bottom: 20px;
-		position: relative;
-
-		@media screen and (max-width: 768px){
-				display: block;
-		}
-		@media screen and (max-width: 520px){
-				margin-top: 120px;
-		} 
-		
+	.mobile-wrapper-wide{
+		margin: 0 auto;
+		max-width: 1170px;
+		padding: 0;
 	}
+
+		.menu-mobile-wrapper{
+			display: none;
+			margin-bottom: 20px;
+			position: relative;
+
+			@media screen and (max-width: 768px){
+					display: block;
+			}
+			@media screen and (max-width: 520px){
+					margin-top: 120px;
+			} 
+			
+		}
+		
 }	
 
 	.slide-container-wrapper{
