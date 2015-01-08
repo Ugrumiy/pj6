@@ -42,9 +42,11 @@ header {
 	.account-search-wrapper{
 		background: @color-black;
 		@media screen and (max-width: 590px){
+					padding: 0 15px;
+		}
+		@media screen and (max-width: 520px){
 					padding: 0;
 		}
-
 
 
 		.account-search	{
@@ -55,15 +57,15 @@ header {
 			text-transform: uppercase;
 			line-height: 30px;
 
-			@media screen and (max-width: 590px){
+			@media screen and (max-width: 520px){
 					height: 190px;
 				} 	
 			
 			.left-col {
 				float: left;
-				width: 30%;
+				width: 50%;
 
-				@media screen and (max-width: 590px){
+				@media screen and (max-width: 520px){
 					float: none;
 					width: 100%;
 					height: 95px;
@@ -78,7 +80,7 @@ header {
 
 			.right-col {
 				float: right;
-				width: 70%;
+				width: 50%;
 				text-align: right;
 				list-style:none;
 
@@ -95,7 +97,7 @@ header {
 					text-align: left;
 					padding: 0px 18px 0px 15px;
 					position: relative;
-					@media screen and (max-width: 590px){
+					@media screen and (max-width: 520px){
 					border: none;
 					padding: 0px 28px 0px 7px;
 					
@@ -113,7 +115,6 @@ header {
 						left:0;
 						top: 0;
 						display: none;
-						z-index: 11;
 						li {
 							position: relative;
 							display: list-item;
@@ -124,7 +125,7 @@ header {
 							&:hover{
 								color:@color-peach;
 							}
-							@media screen and (max-width: 590px){
+							@media screen and (max-width: 520px){
 								left:-8px;
 
 							}
@@ -145,7 +146,7 @@ header {
 								color:@color-peach;
 							}
 					}
-					@media screen and (max-width: 590px){
+					@media screen and (max-width: 520px){
 						padding: 0px 15px 0px 58px;
 						background: url('../images/spritesheet1.png') no-repeat -7px -1245px;
 					} 
@@ -155,35 +156,14 @@ header {
 					height: 30px;
 					background: url('../images/spritesheet1.png') no-repeat -5px -1107px;
 					vertical-align: top;
-					&:hover{
-								background: url('../images/spritesheet2.png') no-repeat -17px -120px;
-							}
-					@media screen and (max-width: 590px){
+					@media screen and (max-width: 520px){
 						height: 95px;
 						width: 95px;
-						background: url('../images/spritesheet1.png') no-repeat 13px -75px;
-						&:hover{
-								background: url('../images/spritesheet2.png') no-repeat 1px -2px;
-							}
+						background: url('../images/spritesheet1.png') no-repeat 10px -82px;
 					}
 			    }
-			    .search-form{
-			    	input{
 
-			    		@media screen and (max-width: 590px){
-						width: 100%;
-						height: 90px;
-					}
-
-			    	}
-			    	
-			    	@media screen and (max-width: 590px){
-						display: block;
-						margin-bottom: 30px;
-					} 
-			    }
-
-			    @media screen and (max-width: 590px){
+			    @media screen and (max-width: 520px){
 					float: none;
 					width: 100%;
 					height: 95px;
