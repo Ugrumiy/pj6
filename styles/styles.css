@@ -480,23 +480,27 @@ main .center-wrapper-wide-email-social .left-col form input[type='email'] {
   }
 }
 main .center-wrapper-wide-email-social .left-col form input[type='submit'] {
+  padding: 0px;
   display: block;
   background: #fd926d;
   border: none;
   border-bottom: 3px solid #dd6b44;
   color: #ffffff;
   font-size: 25px;
-  margin-bottom: 4px;
   position: absolute;
   left: 88.5%;
-  top: 16%;
+  top: 18.5%;
+  width: 38px;
+  height: 34px;
+  cursor: pointer;
 }
 @media screen and (max-width: 590px) {
   main .center-wrapper-wide-email-social .left-col form input[type='submit'] {
     font-size: 87px;
-    padding: 0 27px;
-    left: 78.5%;
-    top: 1%;
+    height: 105px;
+    width: 105px;
+    left: 80%;
+    top: 0%;
     border-bottom: none;
   }
 }
