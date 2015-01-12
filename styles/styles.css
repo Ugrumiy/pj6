@@ -116,6 +116,7 @@ header .account-search-wrapper .account-search .right-col .currency-selector .cu
   left: 0;
   top: 0;
   display: none;
+  z-index: 11;
 }
 header .account-search-wrapper .account-search .right-col .currency-selector .currency-list li {
   position: relative;
@@ -123,7 +124,6 @@ header .account-search-wrapper .account-search .right-col .currency-selector .cu
   padding: 0px 18px 0px 15px;
   color: white;
   cursor: pointer;
-  z-index: 11;
 }
 header .account-search-wrapper .account-search .right-col .currency-selector .currency-list li:hover {
   color: #fd926d;
@@ -131,7 +131,6 @@ header .account-search-wrapper .account-search .right-col .currency-selector .cu
 @media screen and (max-width: 520px) {
   header .account-search-wrapper .account-search .right-col .currency-selector .currency-list li {
     left: -8px;
-    z-index: 11;
   }
 }
 header .account-search-wrapper .account-search .right-col .account-enter {
