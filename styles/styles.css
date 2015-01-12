@@ -131,6 +131,7 @@ header .account-search-wrapper .account-search .right-col .currency-selector .cu
 @media screen and (max-width: 520px) {
   header .account-search-wrapper .account-search .right-col .currency-selector .currency-list li {
     left: -8px;
+    z-index: 11;
   }
 }
 header .account-search-wrapper .account-search .right-col .account-enter {
